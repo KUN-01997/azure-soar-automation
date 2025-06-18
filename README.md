@@ -60,35 +60,6 @@ A Logic App is triggered when incidents are created in Sentinel.
 
 ---
 
-## Repository Structure
-
-```
-sentinel-insider-threat-detection/
-│
-├── detections/                         # KQL detection queries
-│   ├── security_events_deleted.kql
-│   ├── user_added_to_priv_group.kql
-│   └── multiple_failed_logons.kql
-│
-├── playbooks/                          # Logic App JSON
-│   └── incident_enrichment_logicapp.json
-│
-├── terraform/                          # Terraform scripts (infra + agent)
-│   ├── main.tf
-│   ├── variables.tf
-│   └── outputs.tf
-│
-├── images/                             # Architecture + UI screenshots
-│   ├── architecture-diagram.png
-│   ├── logicapp-designer.png
-│   ├── automation-rule.png
-│   └── incident-tags-comments.png
-│
-└── README.md
-```
-
----
-
 ## How to Simulate
 
 Run the following commands on your VM to generate test events:
