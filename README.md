@@ -106,7 +106,3 @@ net localgroup administrators attacker /add
 - **Failed Logon (4625):** Try RDP login with wrong credentials 5+ times.
 
 ---
-
-## License
-
-This project is licensed under the MIT License.
