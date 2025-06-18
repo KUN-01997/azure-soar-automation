@@ -1,0 +1,4 @@
+SecurityEvent
+| where EventID == 4625
+| summarize Attempts = count() by Account, bin(TimeGenerated, 5m)
+| where Attempts > 3
